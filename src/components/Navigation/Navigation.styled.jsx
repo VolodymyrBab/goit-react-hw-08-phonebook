@@ -12,4 +12,3 @@ export const Link = styled(NavLink)`
     color: #e84a5f;
   }
 `;
-
