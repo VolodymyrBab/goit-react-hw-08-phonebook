@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
-import { sortByAdded, sortByName } from 'redux/contacts/contactSlice';
+import { sortByAdded, sortByName } from '../../redux/contacts/contactSlice';
 import { SortBtn, BtnWrapper } from './SortedBtns.styled';
-import { useContacts } from 'hooks/useContact';
+import { useContacts } from '../../hooks/useContact';
 import {
 TbSortAscendingLetters,
   TbSortDescendingLetters,

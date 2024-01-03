@@ -1,11 +1,11 @@
 import { Title, Message, ContactsWrapper, Section } from './Contacts.styled';
 import { useDispatch} from 'react-redux';
 import { useEffect } from 'react';
-import ContactsList from 'components/ContactsList/ContactsList';
-import ContactForm from 'components/ContactForm/ContactForm';
-import Filter from 'components/Filter/Filter';
-import { fetchContacts } from 'redux/contacts/operation';
-import { useContacts } from 'hooks/useContact';
+import ContactsList from '../../components/ContactsList/ContactsList';
+import ContactForm from '../../components/ContactForm/ContactForm';
+import Filter from '../../components/Filter/Filter';
+import { fetchContacts } from '../../redux/contacts/operation';
+import { useContacts } from '../../hooks/useContact';
 
 const Contacts = () => {
 	const dispatch = useDispatch();

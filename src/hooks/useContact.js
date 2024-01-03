@@ -6,7 +6,7 @@ import {
   selectRecentlyAdded,
   selectSortedAlphabetic,
   selectVisibleContacts,
-} from 'redux/contacts/selectors';
+} from '../redux/contacts/selectors';
 
 export const useContacts = () => {
   const contacts = useSelector(selectContacts);
