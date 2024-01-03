@@ -3,8 +3,8 @@ import { Input, AddButton, Form, Title } from './ContactForm.styled';
 import { RiContactsLine } from 'react-icons/ri';
 import Notiflix from 'notiflix';
 import  Loader  from '../Loader/Loader';
-import { addContact } from 'redux/contacts/operation';
-import { useContacts } from 'hooks/useContact';
+import { addContact } from '../../redux/contacts/operation';
+import { useContacts } from '../../hooks/useContact';
 
 const ContactForm = () => {
   const dispatch = useDispatch();

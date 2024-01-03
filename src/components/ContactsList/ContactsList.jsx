@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { RiDeleteBin2Line, RiEditLine } from 'react-icons/ri';
-import { deleteContact } from 'redux/contacts/operation';
+import { deleteContact } from '../../redux/contacts/operation';
 import {
   List,
   ListItem,
