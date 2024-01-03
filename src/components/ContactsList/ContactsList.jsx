@@ -13,7 +13,7 @@ import { Confirm } from 'notiflix/build/notiflix-confirm-aio';
 import Modal from '../Modal/Modal';
 import SortedBtns from '../SortedBtns/SortedBtns';
 import Loader from '../Loader/Loader';
-import { useContacts } from 'hooks/useContact';
+import { useContacts } from '../../hooks/useContact';
 
 
 
