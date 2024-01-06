@@ -9,7 +9,7 @@ const Home = () => {
         libraries.
       </Text>
       <Text>
-        It's a simple app when you can save your contacts in
+        It's a simple app where you can save your contacts in
         one place, delete them, or edit them. 
       </Text>
       <Text>
