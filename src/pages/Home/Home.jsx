@@ -1,4 +1,4 @@
-import { Text } from './Home.styled';
+import {MainText, Text } from './Home.styled';
 
 const Home = () => {
   return (
